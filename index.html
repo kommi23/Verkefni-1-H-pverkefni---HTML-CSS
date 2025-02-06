@@ -13,8 +13,13 @@
 
     <div class="container">
         <div class="audio_container">
-            <div><p>select sound: </p></div>
-            <div><select id="selection"> <option value="">selection</option> </select></div>
+            <div><p>Select sound: </p></div>
+            <div><select class="audio_selection">
+                 <option value="">Sine</option> 
+                 <option value="">Square</option> 
+                 <option value="">Triangle</option> 
+
+                </select></div>
         </div>
         
         <div class="square_container">
@@ -23,13 +28,20 @@
             <button class="square green"></button>
             <button class="square blue"></button>
         </div>
-
         <div class="button_container">
-            <div class="buttons"></div>
-            <div class="buttons"></div>
-            <div class="this_will_bw_image"></div>
+            <div class="buttons">
+                <p>Start</p>
+            </div>
+            <div class="buttons">
+                <p>Replay</p>
+            </div>
+            <div>
+                <img src="information.png" class="this_will_bw_image">
+            </div>
         </div>
 
+
+        <p>High score: 0</p>
 
     </div>
 
