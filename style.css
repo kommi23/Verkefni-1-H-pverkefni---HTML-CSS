@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(12, 52, 71);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid red;
+    gap: 10px;
+
+}
+
+
+.audio_container {
+
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    align-items: center;
+    border: 2px solid red;
+}
+
+
+
+
+.squere_container {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    border: 2px solid red;
+    gap: 20px;
+
+
+}
+
+.squere {
+    border: 5px solid forestgreen;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+.red {
+ background-color: red;
+
+}
+
+.yellow {
+
+    background-color: rgb(204, 218, 20);
+
+}
+
+.green {
+
+    background-color: rgb(23, 153, 36);
+
+}
+
+.blue {
+    background-color: rgb(50, 94, 169);
+
+
+
+}
+
+
+
+.button_container {
+
+    display: grid;
+    border: 2px solid red;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    align-items: center
+    
+
+}
+
+.buttons {
+    border: 5px solid rgb(0, 0, 0);
+    height: 30px;
+    width: 70px;
+    border-radius: 15px;
+
+}
+
+.this_will_bw_image {
+
+    border: 5px solid rgb(11, 17, 11);
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+
+}
