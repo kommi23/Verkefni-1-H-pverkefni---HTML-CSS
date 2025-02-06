@@ -123,5 +123,31 @@ p {
     
     height: 15px;
     width: 15px;
+    position: relative;
+}
 
+.this_will_bw_image::before,
+.this_will_bw_image::after {
+    --scale: 0;
+    position:absolute;
+    top: 1100%;
+    left: 700%;
+    transform: translateX(-50%) translateY(-100%) scale(var(--scale));
+    transition: 50ms transform;
+    margin-top: 0.25rem;
+}
+
+.this_will_bw_image::before {
+    content: attr(data-tooltip);
+    color: white;
+    padding: .5rem;
+    border-radius: .3rem;
+    text-align: center;
+    width: max-content;
+    max-width: 200px;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.this_will_bw_image:hover::before {
+    --scale: 1;
 }
