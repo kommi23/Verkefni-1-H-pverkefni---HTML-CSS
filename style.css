@@ -84,24 +84,34 @@ h6{
     outline:none;
   }
 
+.red:active {
+    background-color: rgb(90, 22, 22);
+} 
+
 .yellow {
     background-color: rgba(241,187,14,255);
   }
 
-.green {
-
-    background-color: rgba(47,205,113,255);
-
+.yellow:active {
+    background-color: rgb(163, 145, 43);
 }
 
+.green {
+    background-color: rgba(47,205,113,255);
+}
+
+.green:active {
+    background-color: rgb(27, 80, 36);
+}
 
 .blue {
     background-color: rgba(52,153,218,255);
-
-
 }
 
+.blue:active {
+    background-color: rgb(42, 67, 110);
 
+}
 
 .button_container {
 
