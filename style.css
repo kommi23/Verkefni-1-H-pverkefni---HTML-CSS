@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(12, 52, 71);
+    background-color: rgba(45, 63, 80, 255);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,6 +11,11 @@ p {
 
 }
 
+h6{
+
+    color: rgba(245, 245, 245, 0.802);
+
+}
 .container {
     display: flex;
     align-items: center;
@@ -20,14 +25,13 @@ p {
 
 }
 
-
 .audio_container {
 
     display: grid;
     grid-template-columns: auto auto;
     gap: 10px;
     align-items: center;
-    height: 5vh;
+    
  
 }
 
@@ -44,52 +48,55 @@ p {
 
     gap: 10px;
 
-
 }
 
 .square {
     height: 100px;
     width: 100px;
     border-radius: 15px;
+    outline: none;
+    
 }
+
+.circle1 {
+
+    height: 70px;
+    width: 70px;
+    border-radius: 70px;
+    background-color: rgba(26, 189, 156,255);
+    position: absolute;
+}
+
+.circle2 {
+    height: 65px;
+    width: 65px;
+    border-radius: 65px;
+    background-color: rgba(45, 63, 80, 255);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .red {
- background-color: red;
-
-}
-
-.red:active {
-    background-color: rgb(90, 22, 22);
+    background-color: rgba(230,77,60,255);
+    outline:none;
   }
 
 .yellow {
-
-    background-color: rgb(204, 218, 20);
-
-}
-
-.yellow:active {
-    background-color: rgb(163, 145, 43);
+    background-color: rgba(241,187,14,255);
   }
 
 .green {
 
-    background-color: rgb(23, 153, 36);
+    background-color: rgba(47,205,113,255);
 
 }
 
-.green:active {
-    background-color: rgb(27, 80, 36);
-  }
 
 .blue {
-    background-color: rgb(50, 94, 169);
-
-
-}
-
-.blue:active {
-    background-color: rgb(42, 67, 110);
+    background-color: rgba(52,153,218,255);
 
 
 }
