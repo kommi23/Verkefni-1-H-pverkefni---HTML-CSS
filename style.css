@@ -30,7 +30,7 @@ body {
 
 
 
-.squere_container {
+.square_container {
     display: grid;
     place-items: center;
     grid-template-columns: 100px 100px;
@@ -41,7 +41,7 @@ body {
 
 }
 
-.squere {
+.square {
     border: 5px solid forestgreen;
     height: 100px;
     width: 100px;
@@ -53,11 +53,19 @@ body {
 
 }
 
+.red:active {
+    background-color: rgb(90, 22, 22);
+  }
+
 .yellow {
 
     background-color: rgb(204, 218, 20);
 
 }
+
+.yellow:active {
+    background-color: rgb(163, 145, 43);
+  }
 
 .green {
 
@@ -65,9 +73,18 @@ body {
 
 }
 
+.green:active {
+    background-color: rgb(27, 80, 36);
+  }
+
 .blue {
     background-color: rgb(50, 94, 169);
 
+
+}
+
+.blue:active {
+    background-color: rgb(42, 67, 110);
 
 
 }
