@@ -6,13 +6,16 @@ body {
     height: 100vh;
 }
 
+p {
+    color: rgba(245, 245, 245, 0.802);
+
+}
 
 .container {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    border: 2px solid red;
     gap: 10px;
 
 }
@@ -24,25 +27,28 @@ body {
     grid-template-columns: auto auto;
     gap: 10px;
     align-items: center;
-    border: 2px solid red;
+    height: 5vh;
+ 
 }
 
-
-
+.audio_selection{
+    
+ 
+}
 
 .squere_container {
     display: grid;
     place-items: center;
     grid-template-columns: 100px 100px;
     grid-template-rows: 100px 100px;
-    border: 2px solid red;
-    gap: 20px;
+
+    gap: 10px;
 
 
 }
 
 .squere {
-    border: 5px solid forestgreen;
+    
     height: 100px;
     width: 100px;
     border-radius: 15px;
@@ -77,27 +83,29 @@ body {
 .button_container {
 
     display: grid;
-    border: 2px solid red;
+   
     grid-template-columns: auto auto auto;
-    gap: 10px;
+    gap: 5px;
     align-items: center
     
 
 }
 
 .buttons {
-    border: 5px solid rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
     height: 30px;
     width: 70px;
-    border-radius: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
 .this_will_bw_image {
 
-    border: 5px solid rgb(11, 17, 11);
-    height: 20px;
-    width: 20px;
-    border-radius: 20px;
+    
+    height: 15px;
+    width: 15px;
 
 }
