@@ -78,6 +78,21 @@ h6{
     justify-content: center;
 }
 
+.default {
+    background-color: rgba(255, 255, 255, 0.10);
+
+}
+
+.default:active {
+    background-color: rgba(0, 255, 191, 35);
+
+}
+
+.default:disabled {
+    background-color: rgb(195, 206, 203);
+    color: rgb(120, 120, 120); 
+    opacity: 0.5;
+}
 
 .red {
     background-color: rgba(230,77,60,255);
@@ -125,14 +140,14 @@ h6{
 }
 
 .buttons {
-    border: 2px solid rgb(0, 0, 0);
+    border: 0px solid rgb(0, 0, 0);
     height: 30px;
     width: 70px;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
 }
 
 .this_will_bw_image {
