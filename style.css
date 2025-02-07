@@ -52,7 +52,7 @@ h6{
 .square {
     height: 100%; /* osfrv osfrv */
     width: 100%;/* allar stærðir þurfa að vera í prósentum svo þetta virkar. px stærð fokkar öllu upp */
-    border-radius: 25px;
+    border-radius: 10%;
     border: none;
     outline: none;
     
@@ -81,6 +81,12 @@ h6{
     border-radius: 100%;
     background-color: rgba(26, 189, 156,255);
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 62px; 
+  
+ 
 }
 
 .circle2 {
@@ -92,6 +98,9 @@ h6{
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 55px; 
+ 
+    
 }
 
 .default {
