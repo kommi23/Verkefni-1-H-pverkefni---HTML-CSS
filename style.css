@@ -49,9 +49,9 @@ h6{
 }
 
 .square {
-    height: 115px;
-    width: 115px;
-    border-radius: 15px;
+    height: 105px;
+    width: 105px;
+    border-radius: 10px;
     border: none;
     outline: none;
     
