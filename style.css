@@ -1,10 +1,13 @@
 body {
+    
     background-color: rgba(45, 63, 80, 255);
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-}
+    
+    
+    }
+
 
 p {
     color: rgba(245, 245, 245, 0.802);
@@ -22,19 +25,14 @@ h6{
     flex-direction: column;
     justify-content: center;
     gap: 15px;
+    border: solid red;
+    height: 80vh; /* festir container hæð miðað við skjástærð */
+    width: 40vw;/* festir container breidd miðað við skjástærð */
+    max-width: 1000px;
+    max-height: 1000px;
 
-}
-
-.audio_container {
-
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 10px;
-    align-items: center;
-    /* border: solid red; */
-    line-height: 0px;
     
- 
+
 }
 
 
@@ -44,17 +42,33 @@ h6{
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     /* border: solid red; */
-    gap: 10px;
-
+    gap: 3%; /* gap helst í 3 prósent miðað við container stærð*/
+    height: 100%; /* sama hér, 100 prósent stærð miðað við container */
+    aspect-ratio: 1; /* scaling fix */
 }
 
 .square {
-    height: 105px;
-    width: 105px;
+    height: 100%; /* osfrv osfrv */
+    width: 100%;/* allar stærðir þurfa að vera í prósentum svo þetta virkar. px stærð fokkar öllu upp */
     border-radius: 10px;
     border: none;
     outline: none;
+ 
     
+}
+
+.audio_container {
+
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px; 
+    align-items: center;
+    height: 20%;
+    /* border: solid red; */
+    line-height: 0px;
+    
+    
+ 
 }
 
 .circle1 {
