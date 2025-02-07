@@ -44,7 +44,7 @@ h6{
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     /* border: solid red; */
-    gap: 10px; /* gap helst í 3 prósent miðað við container stærð*/
+    gap: 3%; /* gap helst í 3 prósent miðað við container stærð*/
     height: 100%; /* sama hér, 100 prósent stærð miðað við container */
     aspect-ratio: 1; /* scaling fix */
 }
