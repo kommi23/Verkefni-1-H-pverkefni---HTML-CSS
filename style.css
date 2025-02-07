@@ -25,7 +25,6 @@ h6{
     flex-direction: column;
     justify-content: center;
     gap: 15px;
-    border: solid red;
     height: 80vh; /* festir container hæð miðað við skjástærð */
     width: 40vw;/* festir container breidd miðað við skjástærð */
     min-width: 400px; 
@@ -67,7 +66,6 @@ h6{
     gap: 10px; 
     align-items: center;
     height: 20%;
-    border: solid red; 
     line-height: px;
     margin: 1px
 
@@ -85,6 +83,7 @@ h6{
     align-items: center;
     justify-content: center;
     min-height: 62px; 
+    max-height: 1000px;
   
  
 }
@@ -99,7 +98,7 @@ h6{
     align-items: center;
     justify-content: center;
     min-height: 55px; 
- 
+    max-height: 1000px;
     
 }
 
