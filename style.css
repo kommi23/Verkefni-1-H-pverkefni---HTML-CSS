@@ -183,3 +183,17 @@ h6{
 .this_will_bw_image:hover::before {
     --scale: 1;
 }
+
+
+
+
+
+#lessthan600px {
+    display: none;
+}
+
+@media only screen and (min-width: 599px) {
+    #lessthan600px {
+        display: block;
+    }    
+}
