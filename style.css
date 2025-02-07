@@ -192,7 +192,9 @@ h6{
     display: none;
 }
 
-
+#oops_image {
+    display: block;
+}
 
 
 
@@ -200,5 +202,7 @@ h6{
     #lessthan600px {
         display: block;
     }    
-
+    #oops_image {
+        display: none;
+    }   
 }
